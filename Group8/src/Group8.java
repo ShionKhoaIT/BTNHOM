@@ -3,14 +3,16 @@ public class Group8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Group8 gr = new Group8();
-		System.out.println("Tổng 2 số nguyên là: "+gr.Tong(2,5) );
-		System.out.println("Tổng 2 số nguyên là: "+gr.Hieu(8,3));
+		Group8 gp = new Group8();
+		System.out.println("Tổng 2 số nguyên là: "+gp.Tong(2,5) ); // HoangPhamNguyenHung
+		System.out.println("Tổng 2 số nguyên là: "+gp.Hieu(8,3)); // HoangPhamNguyenHung
 	}
-	public int Tong(int a, int b) {
+	// HoangPhamNguyenHung
+	public double Tong(double a, double b) {
 		return a+b;
 	}
-	public int Hieu(int a, int b) {
+	// HoangPhamNguyenHung
+	public double Hieu(double a, double b) {
 		return a-b;
 	}
 }
